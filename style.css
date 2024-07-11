@@ -1,0 +1,383 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: Azeret, monospace;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0; 
+    margin: 5px 20px;
+}
+.nav h2{
+    font-size: 40px;
+}
+.nav button{
+    padding: 10px 5px;
+}
+#hero{
+    background-image: url('assets/Hero-bg.png');
+    
+}
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto 40px;
+    padding: 40px 0;
+    
+}
+.heroSection h2{
+    font-size: 30px;
+    width: 600px;
+    text-align: center;
+    margin: 20px auto 10px;
+}
+.heroSection p{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+.heroSection button{
+    font-size: 30px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.heroSection button a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.webContant{
+    background-color: rgb(236, 237, 238);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.webContant h2{
+    margin: 30px auto 10px ;
+    font-size: 30px;
+    opacity: .9;
+}
+
+.webContant p{
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    opacity: .7;
+    text-align: center;
+}
+
+
+.skill1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(204, 198, 198);
+    
+}
+
+.skillContent{
+    padding: 10px 20px;
+
+
+}
+
+.skillContent > h2{
+    padding: 0px;
+}
+
+.skillContent > p{
+    display: block;
+    margin: 5px 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+.skillContent button{
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+/*skill2*/
+
+.skill3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(252, 246, 246);
+    margin-top: 20px;
+    
+}
+
+.skillContent{
+    padding: 10px 20px;
+
+
+}
+
+.skillContent > h2{
+    padding: 0px;
+}
+
+.skillContent > p{
+    display: block;
+    margin: 5px 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+.skillContent button{
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+/*skill2*/
+
+.skill2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(206, 213, 223);
+    margin-top: 20px;
+    
+}
+
+.skillContent{
+    padding: 10px 20px;
+
+
+}
+
+.skillContent > h2{
+    padding: 0px;
+}
+
+.skillContent > p{
+    display: block;
+    margin: 5px 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+.skillContent button{
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+
+/*
+.skillImg{
+    background-color: yellow;
+    width: 40%;
+    padding-left: 50px;
+    
+}
+.skillContent p{
+    opacity: .7;
+    text-align: left;
+    display: block;
+
+
+/*---------------------------------------------*/
+
+.ins-cont{
+    background-color: rgb(247, 243, 243);
+    margin: 20px 0;
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px;
+}
+.ins-cont h2{
+    margin: 40px auto 20px ;
+    font-size: 40px;
+    opacity: .7;
+}
+.ins-cont p{
+    margin: 20px 10px ;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    opacity: .7;
+}
+.ins-cont .video{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid rgb(250, 247, 247);
+    padding: 20px;
+    border-radius: 10px;
+}
+.ins-cont .video iframe{
+    border-radius: 10px;
+} 
+
+.contentBox{
+    background: rgb(245, 243, 243);
+    padding: 0 20px;
+    
+}
+.targetHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.targetHead h3{
+    margin: 45px 35px;
+    font-size: 30px;
+    opacity: .7;
+}
+.targetHead p{
+    margin: 0 35px;
+    font-size: 30px;
+    opacity: .7;
+    text-align: center;
+}
+.targetBox{
+    display: flex;
+    flex-direction: row;
+    gap: 0 10px;
+    margin: 40px 10px;
+    justify-content: space-around;
+}
+
+.img1{
+    height: 200px;
+    width: 30%;
+    background-color: rgb(238, 219, 192);
+    padding: 30px 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.img1 h2, p, a{
+    margin: 10px ;
+}
+.img2{
+    height: 200px;
+    width: 30%;
+    background-color: rgb(230, 240, 241);
+    padding: 30px 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.img2 h2, p, a{
+    margin: 10px ;
+}
+.img3{
+    height: 200px;
+    width: 30%;
+    background-color: rgb(225, 223, 220);
+    padding: 30px 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.img3 h2, p, a{
+    margin: 10px ;
+}
+
+#supportSection{
+    height: 386px;
+    margin: 7px 0;
+}
+
+.contant{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    height:386px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contant h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    opacity: .7;
+    padding: 40px 0 20px;
+
+}
+
+.contant p{
+    color: aliceblue;
+    font-size: 30px;
+    opacity: .7;
+    text-align: center;
+}
+.supportForm{
+   display: flex;
+   align-items: centre;
+   
+}
+.supportForm input[type="text"]{
+    border: none;
+    border-radius: 8px;
+    color: #0D1321;
+    width: 450px;
+    height: 58px;
+    padding: 0 15px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.supportForm button{
+    padding: 5px 15px;
+    background: #ffffff;
+    font-size: 20px;
+    color: #0D1321;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 58px;
+}
+
+
+.footer{
+    background: #0d13210f;
+    padding: 5px;
+    display: flex;
+    height: 50px;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.footer ul li{
+    list-style: none;
+    display: inline;
+   
+}
